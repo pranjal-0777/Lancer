@@ -1,0 +1,75 @@
+1/ Communication Protocols 
+ - TCP (reliable, connection-oriented) vs. UDP (faster, connectionless). 
+ + Differences in use cases, performance, and reliability. 
+ - Evolution of HTTP (HTTP/1.1 → HTTP/2 → HTTP/3). 
+ + Multiplexing, streams, and the role of QUIC in HTTP/3. 
+ - Real-time communication protocols: WebSockets, gRPC, raw TCP/UDP. 
+ + When to use them (e.g., chat apps, gaming). 
+
+2/ Web Servers 
+ - Role of web servers like NGINX, Apache, or custom-built ones. 
+ + How they process requests and manage threads/connections. 
+ - HTTP protocol configurations (HTTP/1.1, HTTP/2, HTTP/3). 
+ + Performance considerations like multiplexing and persistent connections. 
+ - Proxy setups (forward/reverse proxies). 
+ + CDN as a reverse proxy and API gateways for backend management. 
+
+3/ Database Engineering 
+ - ACID properties (Atomicity, Consistency, Isolation, Durability). 
+ + Why they matter and trade-offs for performance. 
+ - Relational vs. Non-relational databases. 
+ + Examples: PostgreSQL, MongoDB, Cassandra, Redis for Caching. 
+ - Indexing techniques. 
+ + B+ Trees, LSM, and query optimization. 
+
+4/ Proxies 
+- Explore how proxies improve scalability and security. 
+ - Elements to be covered: 
+ - Forward proxy vs. Reverse proxy. 
+ + Use cases in caching, authentication, and load balancing. 
+ - Layer 4 (transport layer) vs. Layer 7 (application layer) proxies. 
+ + How they interact with protocols like HTTP and TCP. 
+ - Examples of popular proxies: NGINX, HAProxy, Envoy. 
+
+
+5/ Messaging Systems 
+ - Publish-Subscribe model. 
+ + Examples: Kafka (long-polling), RabbitMQ (push). 
+ - Message delivery guarantees. 
+ + At-least-once, exactly-once, at-most-once delivery. 
+ - Real-world applications in microservices and event-driven architecture. 
+
+6/ Message Formats 
+ - Human-readable formats: JSON, XML. 
+ + When to use and their pros/cons. 
+ - Binary formats: Protocol Buffers, Avro. 
+ + Faster serialization/deserialization for large-scale systems. 
+
+7/ Security 
+ - Encryption and secure communication (TLS/SSL). 
+ + Preventing man-in-the-middle attacks. 
+ - Common vulnerabilities: 
+ + XSS, SQL injection, and how to mitigate them. 
+ - DDOS prevention techniques. 
+ + Use of firewalls and layer 7 DDOS protection tools like Cloudflare. 
+
+8/ Load Balancing and Scaling 
+ - Load balancing techniques. 
+ + Round-robin, weighted load balancing, least connections. 
+ - Horizontal vs. vertical scaling. 
+ + Pros/cons and real-world scenarios. 
+ - Autoscaling in cloud environments. 
+ + AWS, GCP, and Azure implementations. 
+9/ Monitoring and Observability 
+ - Log management and analysis. 
+ + Tools: ELK stack, Splunk. 
+ - Metrics collection and visualization. 
+ + Tools: Prometheus, Grafana. 
+ - Tracing distributed systems. 
+ + Tools: Jaeger, OpenTelemetry. 
+
+10/ Frameworks and Tools 
+ - Backend frameworks like Django, Express, Spring Boot. 
+ + How to choose based on the project. 
+ - Utility tools for debugging, deployment, and testing. 
+ + Examples: Postman (API testing), Docker (containerization), Kubernetes (orchestration). 
