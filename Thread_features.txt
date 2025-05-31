@@ -1,0 +1,29 @@
+
+Key Features of Threads 🔑
+Concurrent Execution:
+Multiple threads can run simultaneously, allowing programs to perform multiple tasks at once. 🔄,
+
+📌 Example :
+
+In a web browser, one thread can handle user interactions (scrolling, clicking), while another thread loads a
+
+ web page in the background. This prevents the UI from freezing while content is still loading.
+
+Resource Sharing:
+Threads within the same process share memory and resources, making communication between threads efficient. 🤝
+
+📌 Example (for Resource Sharing):
+
+In a text editor like Microsoft Word, multiple threads handle different tasks—one thread checks spelling and grammar, another auto-saves the document, while another processes user input. Since all threads share the same document data, resource sharing ensures efficiency without redundant memory usage.
+
+Lightweight:
+Threads require fewer resources compared to creating multiple processes. 🪶
+
+📌 Example (for Lightweight):
+
+In a multiplayer online game, multiple threads manage player movements, background music, and network communication. Since creating a new process for each task would be costly, using threads keeps the game smooth and responsive while consuming fewer resources.
+
+
+Why specifically Threads and not processes ?
+
+Threads share memory space, making communication between them faster compared to processes. This ensures smooth and responsive performance without unnecessary duplication of resources.

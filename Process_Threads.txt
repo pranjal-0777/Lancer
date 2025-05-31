@@ -1,0 +1,45 @@
+
+Thread is fundamental unit of execution where program can execute multiple tasks concurrently.
+Thread is both parallel (diff core) + concurrent (multiple thread on 1 core context switching)
+
+Process : Baking - multiple task sequence
+Threads : task - parallel & concurrent
+
+Process - independent Program with its own memory space
+          separate memory
+          fully independent resource allocation
+          overhead is high - creating process is resource intensive
+          inter process communication requires complex mechanism via pipes , sockets , message queue
+          High isolation between processes
+          Expensive context switching
+          One process crash doesn;t typically effect other
+
+Thread - unit of execution within a process
+         shared memory
+         shares resources with other threads of same process
+         overhead is low - threads are lightweight and quick to create
+         easy communication through shared memory
+         Low isolation - threads can directly affect each other
+         relatively inexpensive context switching
+         Thread failure can potentially crash the entire process
+
+memory management - separate memory space for process
+resource consumption - high for process
+communication
+fault tolerance
+
+Process - independent tasks & need high isolation & leveraging different cpu cores
+        - chrome browser - RAM memory high - inactive tab - tab groups
+Threads - multiple tasks within same application
+          share common data quickly
+          improves responsiveness & performance of single application
+        - Mobile apps - whatsapp update ui & handle background network requests
+        - e commerce platform - browse , add cart , checkout simultaneously while sharing inventory data
+        - spotify - ui update & buffer audio
+
+
+
+
+
+
+

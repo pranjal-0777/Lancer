@@ -1,0 +1,8 @@
+
+Multithreading
+via - Thread class - extends - simpler - direct access to thread - limits  - each task requires new thread instance
+via - Runnable interface - more code - indirect access to thread methods
+      better object oriented design
+      allows class to extend other class
+      more flexible for executor framework
+      same runnable object can be shared accross multiple thread
